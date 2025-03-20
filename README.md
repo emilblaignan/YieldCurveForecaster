@@ -11,15 +11,20 @@ This project uses the Federal Reserve Economic Data (FRED) API to fetch financia
 ## Project Setup
 
 1. Clone the Repository:
+
    ```bash
    git clone https://github.com/yourusername/YieldCurveForecaster.git
    cd YieldCurveForecaster
 ```
+
 2. Install the required packages:
+
    ```bash
    pip install -r requirements.txt
 ```
+
 3. Set your API key as an environment variable:
+
    ```bash
    # On Linux/macOS
    export FRED_API_KEY='your_api_key_here'
@@ -33,6 +38,7 @@ This project uses the Federal Reserve Economic Data (FRED) API to fetch financia
 ```
 
 4. Initialize the database (if not already present):
+
    ```bash
    python update_db.py
 ```
@@ -40,9 +46,11 @@ This project uses the Federal Reserve Economic Data (FRED) API to fetch financia
 ## Running the Dashboard
 
 Launch the interactive dashboard:
+
    ```bash
    python dashboard.py
 ```
+
 Navigate to http://127.0.0.1:8092/ in your browser to access the application.
 
 ## Project Structure
